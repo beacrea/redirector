@@ -1,7 +1,7 @@
 // Vars
 const express = require('express');
 const app = express();
-const port = 3333;
+const port = 80;
 
 // Index
 app.get('/', function (req, res) {
