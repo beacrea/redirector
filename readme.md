@@ -1,0 +1,2 @@
+# Redirector Project
+As I've started to spin up more projects, some of which require physical object creation, being able to future-proof URIs has become a requirement. This project is a simple router to traffic control those requests.
