@@ -1,0 +1,14 @@
+# Node stuff
+node_modules/
+bower_components/
+*.log
+
+# Sass template
+.sass-cache/
+*.css.map
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
