@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
    Example: 2016-ireland-video-0
  */
 app.get('/2016-ireland-video-0', function (req, res) {
-    res.redirect(302, 'https://www.youtube.com/watch?v=Qh5ZpjBB4UM');
+    res.redirect(302, 'https://www.youtube.com/watch?v=3JHUJHDRcHM');
 });
 
 // Port listening text
