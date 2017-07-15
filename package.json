@@ -2,7 +2,7 @@
   "name": "redirector",
   "version": "1.0.0",
   "description": "A project to create a personal url redirection application.",
-  "main": "index.js",
+  "main": "redirector_app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
