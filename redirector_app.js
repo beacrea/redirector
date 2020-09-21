@@ -12,8 +12,8 @@ app.get('/', function (req, res) {
    Format: year-trip-asset-number
    Example: 16ildv1
  */
-app.get('/16ildv1', function (req, res) {
-    res.redirect(301, 'https://vimeo.com/459800355');
+app.get('/hello', function (req, res) {
+    res.send('Ohai!');
 });
 
 // Port listening text
