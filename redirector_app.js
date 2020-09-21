@@ -12,8 +12,20 @@ app.get('/', function (req, res) {
    Format: year-trip-asset-number
    Example: 16ildv1
  */
+
+// Inisheer Video
 app.get('/16ildv1', function (req, res) {
-    res.redirect(301, 'https://vimeo.com/459800355');
+   res.redirect(301, 'https://vimeo.com/459800355');
+});
+
+// Cliffs at Kilkee & Bridges of Ross Video
+app.get('/16ildv2', function (req, res) {
+   res.redirect(301, 'https://vimeo.com/459990631');
+});
+
+// Ross Errilly Friary Video
+app.get('/16ildv3', function (req, res) {
+   res.redirect(301, 'https://vimeo.com/460022494');
 });
 
 // Port listening text
