@@ -5,15 +5,15 @@ const port = 80;
 
 // Index
 app.get('/', function (req, res) {
-    res.send('This is Coty Beasley\'s redirection service.');
+    res.send('This is Coty Beasley\'s url redirection service.');
 });
 
 /* Ireland photo book
    Format: year-trip-asset-number
    Example: 16ildv1
  */
-app.get('/hello', function (req, res) {
-    res.send('Ohai!');
+app.get('/16ildv1', function (req, res) {
+    res.redirect(301, 'https://vimeo.com/459800355');
 });
 
 // Port listening text
