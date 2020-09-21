@@ -10,10 +10,10 @@ app.get('/', function (req, res) {
 
 /* Ireland photo book
    Format: year-trip-asset-number
-   Example: 2016-ireland-video-0
+   Example: 16ildv1
  */
-app.get('/2016-ireland-video-0', function (req, res) {
-    res.redirect(302, 'https://www.youtube.com/watch?v=3JHUJHDRcHM');
+app.get('/16ildv1', function (req, res) {
+    res.redirect(302, 'https://vimeo.com/459800355');
 });
 
 // Port listening text
