@@ -5,7 +5,7 @@ const port = 80;
 
 // Index
 app.get('/', function (req, res) {
-    res.send('This is Coty Beasley\'s url redirection service.');
+    res.send('This is Coty Beasley\'s redirection service.');
 });
 
 /* Ireland photo book
